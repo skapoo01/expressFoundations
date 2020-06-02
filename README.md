@@ -15,13 +15,14 @@
 
 ## 1. Setting up a project
 To use express in a project:
-1. Install the node module express i.e. ```javascript npm install express ```
+1. Install the node module express i.e. ``` npm install express ```
 2. Create a request handler using a call to express()
 3. Add a stack of middlewares
 4. Pass middleware stack to http server using the createServer() method.
 
 ```javascript
-// hello_express/index.js
+//                      << hello_express/index.js >>
+
 const http = require('http');
 const express = require('express');
 
