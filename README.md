@@ -21,7 +21,7 @@ To use express in a project:
 4. Pass middleware stack to http server using the createServer() method.
 
 ```javascript
-//                      << hello_express/index.js >>
+// hello_express/index.js
 
 const http = require('http');
 const express = require('express');
