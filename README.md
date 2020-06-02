@@ -50,7 +50,9 @@ Key points:
 1. Middelware can either pass on control to the next middleware using next(), or it can respond to the request. If no middleware sends a response, then the server stalls.
 2. Express adds to http methods. It does not take anything away.
 
+### 2.1. How to use Middleware
 
+### 2.2. Middleware to serve static files
 
 ## Questions
 - How does next() work?
