@@ -7,6 +7,10 @@ var app = express();
 var publicPath = path.resolve(__dirname, "public");
 app.use(express.static(publicPath));
 
+app.get('/about', function(req, res) {
+    res.end("This is the About text page.");
+});
+
 app.use(function(req, res) {
     res.writeHead(200, {"Content-Type": "text/plain"});
     res.end('File not found');

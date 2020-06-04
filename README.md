@@ -13,6 +13,12 @@
 - Admin heirarchy
 - Deployment
 
+Controllers?
+Models?
+What's the analog?
+
+
+
 ## 1. Setting up a project
 To use express in a project:
 1. Install the node module express i.e. ``` npm install express ```
@@ -54,5 +60,19 @@ Key points:
 
 ### 2.2. Middleware to serve static files
 
-## Questions
+### Questions
 - How does next() work?
+
+
+
+
+## 3. Routing
+
+
+
+
+## 4. Views
+- Rendering Views
+- Setting up EJS
+- EJS Syntax
+- EJS Templating
